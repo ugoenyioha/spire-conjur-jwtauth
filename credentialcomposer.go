@@ -1,4 +1,4 @@
-package credentialcomposer
+package main
 
 import (
 	"context"
