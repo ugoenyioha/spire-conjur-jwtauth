@@ -1,6 +1,5 @@
 # spire-conjur-jwtauth <!-- omit in toc -->
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/infamousjoeg/spire-conjur-jwtauth)](https://goreportcard.com/report/github.com/infamousjoeg/spire-conjur-jwtauth)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://github.com/infamousjoeg/spire-conjur-jwtauth/actions/workflows/build.yml/badge.svg)](https://github.com/infamousjoeg/spire-conjur-jwtauth/actions)
 [![Go Reference](https://pkg.go.dev/badge/github.com/infamousjoeg/spire-conjur-jwtauth.svg)](https://pkg.go.dev/github.com/infamousjoeg/spire-conjur-jwtauth)
