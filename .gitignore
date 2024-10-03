@@ -1,0 +1,13 @@
+# Binaries
+credentialcomposer-plugin
+
+# Vendor Dependencies
+vendor/
+
+# Logs and Temporary Files
+*.log
+*.tmp
+
+# IDE Configurations
+.vscode/
+.idea/
