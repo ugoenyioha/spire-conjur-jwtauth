@@ -42,6 +42,15 @@ func (p *Plugin) ComposeWorkloadJWTSVID(ctx context.Context, req *credentialcomp
 		return nil, status.Error(codes.InvalidArgument, "request cannot be nil")
 	}
 
+	// Get the configuration
+	config, err := p.getConfig()
+	if err != nil {
+		return nil, err
+	}
+
+	// Silence the linter by using the config variable
+	_ = config
+
 	// Access the SPIFFE ID of the workload
 	spiffeID := req.SpiffeId
 	if spiffeID == "" {
