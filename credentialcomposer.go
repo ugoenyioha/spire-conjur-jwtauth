@@ -68,9 +68,10 @@ func (p *Plugin) ComposeWorkloadJWTSVID(ctx context.Context, req *credentialcomp
 
 	// Extract and modify claims
 	updatedClaims, err := updateClaims(req.Attributes.GetClaims(), map[string]interface{}{
-		"spiffe-id":    spiffeID,
-		"trust-domain": trustDomain,
-		"workload":     workloadPath,
+		// "spiffe-id":    spiffeID,
+		// "trust-domain": trustDomain,
+		// "workload":     workloadPath,
+		"iss": spiffeID,
 	})
 	if err != nil {
 		return nil, status.Errorf(codes.Internal, "failed to create updated claims: %v", err)
